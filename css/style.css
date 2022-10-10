@@ -30,6 +30,13 @@ body {
     text-decoration: none;
 }
 
+.container {
+    width: 100%;
+    width: 1360px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /* Navigation */
 .logo {
     font-family: 'Open Sans';
@@ -54,6 +61,7 @@ font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    position: absolute;
 }
 
 .nav-list-item {
@@ -61,6 +69,10 @@ font-family: 'Open Sans';
 }
 
 /* Hero */
+.hero {
+
+}
+
 .hero-tittle {
     font-family: 'Open Sans';
         font-style: normal;
