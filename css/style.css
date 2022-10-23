@@ -1,53 +1,65 @@
+/*  Сергій Кульбашний*/
+.feedback {
+    display: flex;
+    justify-content: center;
+}
 
-
-/* Hennadii Borysevych */
-.article {
-    width: 100vw;
-    background-color: var(--secondary-background-color);
-    padding-bottom: 113px;
+.call-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    padding-top: 78px;
+    padding-bottom: 82px;
     padding-left: 30px;
-    padding-top: 112px;
-    padding-right: 44px;
+    padding-right: 30px;
 }
 
-.time {
-    font-size: 20px;
-    line-height: 1.65;
-
-    margin-bottom: 5px;
-}
-
-.article-title {
+.request-title {
     font-weight: 300;
     font-size: 38px;
+    line-height: 1.26;
+    color: var(--secondary-text-color);
 
-    margin-bottom: 26px;
+    margin-bottom: 34px;
 }
 
-.article-text {
-    font-size: 18px;
-    line-height: 1.56;
-
-    margin-bottom: 25px;
+.form {
+    background-color: var(--primary-text-color);
+    border: 1px solid #F5F5F5;
+    margin-bottom: 36px;
 }
 
-.article-link {
-    display: block;
-    width: fit-content;
-    font-family: inherit;
+input[placeholder] {
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
-    color: var(--primary-text-color);
-    text-decoration: none;
-    min-width: 196px;
+    color: #808080;
+}
 
-    padding-top: 11px;
-    padding-bottom: 10px;
-    padding-left: 42px;
-    padding-right: 31px;
+.email {
+    margin-bottom: 60px;
+}
 
-    border: 1px solid #FFFFFF;
+.send-btn {
+    background-color: var(--accent-color);
     border-radius: 5px;
+    border: none;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--primary-text-color);
+
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.form:hover,
+.form:focus {
+
+    border: 1px solid var(--accent-color);
 }
